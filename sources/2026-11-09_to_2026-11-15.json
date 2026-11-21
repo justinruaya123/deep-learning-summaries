@@ -1,0 +1,547 @@
+{
+  "schema_version": 1,
+  "period_start": "2026-11-09",
+  "period_end": "2026-11-15",
+  "prepared": "2026-11-21",
+  "exhaustive": false,
+  "independently_reproduced": false,
+  "development_count": 22,
+  "entries": [
+    {
+      "title": "Claude Fable 5.2 and Claude Mythos 5.2",
+      "date_label": "**Date: November 9 — new model versions.** Anthropic introduced improvements in coding, reasoning, and vision; it describes Fable and Mythos as the same underlying model, with stronger cybersecurity and biology safeguards on Fable and verified organizational access for Mythos.[19]",
+      "source_ids": [
+        19
+      ]
+    },
+    {
+      "title": "Meta Muse Ember",
+      "date_label": "**Date: November 9 — model/API release.** Meta made `muse-ember-1.0` available through Muse Code and the Meta Model API for recurring agent work such as tool calls, routing, extraction, and coding subtasks, with text, image, audio, and video understanding and a one-million-token context window.[24]",
+      "source_ids": [
+        24
+      ]
+    },
+    {
+      "title": "Gemini 4 Carbon developer access",
+      "date_label": "**Date: November 10 — broader availability, not the original model announcement.** Google opened Carbon through the paid API tier in Google AI Studio and Android Studio, with access for Google AI Ultra subscribers in AI Studio and Antigravity.[18]",
+      "source_ids": [
+        18
+      ]
+    },
+    {
+      "title": "Gemini Decision 1 and the Gemini Decisions API",
+      "date_label": "**Date: November 11 — specialized model and endpoint.** Google's `gemini-decision-1` scores up to 1,000 bounded questions over shared text, images, audio, video, or PDFs in one forward pass, rather than using a general text-generation response for each decision.[26]",
+      "source_ids": [
+        26
+      ]
+    },
+    {
+      "title": "Gemini 4 Hydrogen",
+      "date_label": "**Date: November 12 — new model release.** Google introduced Hydrogen for everyday coding and agentic execution, with availability through the Gemini API, AI Studio, consumer products, and eligible Antigravity subscriptions.[20]",
+      "source_ids": [
+        20
+      ]
+    },
+    {
+      "title": "Inkling 2 Small weights become downloadable",
+      "date_label": "**Date: November 12 — open-weight milestone.** Thinking Machines Lab added a dated update making Inkling 2 Small's weights downloadable, following its November 5 closed-weight launch, and listed integrations including SGLang, vLLM, Unsloth, and TokenSpeed.[21]",
+      "source_ids": [
+        21,
+        27
+      ]
+    },
+    {
+      "title": "Runway Praxis-1 open release",
+      "date_label": "**Date: November 11 — weights and code release.** Runway released weights plus inference and fine-tuning code for Praxis-1 under Apache 2.0, including commercial use; the model itself had been introduced in September.[25]",
+      "source_ids": [
+        25
+      ]
+    },
+    {
+      "title": "Gemini Robotics 2.5",
+      "date_label": "**Date: November 10 — model announcement and partner rollout.** DeepMind introduced a vision-language-action model and said it was rolling out to robotics partners, not unrestricted public download or general API access.[23]",
+      "source_ids": [
+        23
+      ]
+    },
+    {
+      "title": "Unbundling Multimodal Vision Encoding",
+      "date_label": "**First arXiv submission: November 12; v1 read.** This paper separates upstream visual pretraining, dedicated visual capacity, and the placement of that capacity in matched lifetime-compute experiments.[38]",
+      "source_ids": [
+        38,
+        39
+      ]
+    },
+    {
+      "title": "WorkflowArena",
+      "date_label": "**First arXiv submission: November 9; v1 read.** WorkflowArena introduces 145 long-horizon tasks across eight domains to evaluate models that author executable multi-agent workflows.[28][29]",
+      "source_ids": [
+        28,
+        29
+      ]
+    },
+    {
+      "title": "SinkState",
+      "date_label": "**First arXiv submission: November 10; v1 read.** SinkState uses adaptive low-rank SVD representations, buffered updates, and asynchronous CPU consolidation to compress hybrid models' recurrent states.[30][31]",
+      "source_ids": [
+        30,
+        31
+      ]
+    },
+    {
+      "title": "Looping Deeper Without Growing the KV Cache",
+      "date_label": "**First arXiv submission: November 9; v1 read.** The proposed causal encoder-decoder puts recurrence in the encoder and trains with stochastic recurrence depth to share KV representations across layers and rounds.[32][33]",
+      "source_ids": [
+        32,
+        33
+      ]
+    },
+    {
+      "title": "SignRot",
+      "date_label": "**First arXiv submission: November 12; v1 read.** SignRot adds sign adjustments to Hadamard rotations to address outlier-induced split activation distributions, paired with asymmetric quantization.[36][37]",
+      "source_ids": [
+        36,
+        37
+      ]
+    },
+    {
+      "title": "AlphaProof Code verifies bounded Signal implementation properties",
+      "date_label": "**Date: November 10 — technical report and artifacts.** DeepMind introduced a human-guided multi-agent framework for Lean specifications and machine-checked proofs of cryptographic implementation properties.[9]",
+      "source_ids": [
+        9,
+        16
+      ]
+    },
+    {
+      "title": "Chain-of-thought monitorability across the model lifecycle",
+      "date_label": "**Date: November 10 — OpenAI safety study.** OpenAI studied how pretraining, architecture, reinforcement learning, and model-generated data affect no-chain-of-thought capability and control over visible reasoning traces.[10]",
+      "source_ids": [
+        10
+      ]
+    },
+    {
+      "title": "Diluting poisoned fine-tuning data can strengthen a backdoor",
+      "date_label": "**Date: November 10 — Anthropic Fellows/Truthful AI study.** In constructed experiments, poisoned examples that have little effect alone induce a hidden behavior when mixed with clean, contrastive examples lacking the trigger.[11]",
+      "source_ids": [
+        11
+      ]
+    },
+    {
+      "title": "Worse Together / MAMUBench",
+      "date_label": "**Date: November 11 — multi-user coordination study.** Researchers tested agents representing different users sharing budgets, schedules, orders, or merge queues and released three environments as MAMUBench.[12]",
+      "source_ids": [
+        12
+      ]
+    },
+    {
+      "title": "Stress-Testing Sandbagging Detection Under Adaptive Attack",
+      "date_label": "**First arXiv submission: November 11; v1 read.** The study fine-tunes small open-weight models to fail GSM8K selectively under audit markers, then adapts the attack against a text-based detector.[34][35]",
+      "source_ids": [
+        34,
+        35
+      ]
+    },
+    {
+      "title": "Google TPU 8tx and TPU 8i Max systems",
+      "date_label": "**Date: November 9 — hardware-system announcements.** Google expanded its eighth-generation portfolio with TPU 8tx for confidential inference/private customization and TPU 8i Max for memory-intensive, long-context workloads.[15]",
+      "source_ids": [
+        15
+      ]
+    },
+    {
+      "title": "SGLang-Neuron on AWS Trainium",
+      "date_label": "**Date: November 12 — public serving integration.** AWS announced SGLang-Neuron through an AWS Deep Learning Container, enabling model serving and RL rollouts on Trainium through the SGLang interface.[13]",
+      "source_ids": [
+        13
+      ]
+    },
+    {
+      "title": "EmbeddingGemma 2 on Cloudflare Workers AI",
+      "date_label": "**Date: November 12 — platform availability milestone.** Cloudflare added `@cf/google/embeddinggemma-2`, describing a shared embedding space for text/code, images, video, and audio, with 768-dimensional outputs and optional shorter vectors.[14]",
+      "source_ids": [
+        14
+      ]
+    },
+    {
+      "title": "DeepSeek application APIs",
+      "date_label": "**Date: November 13 — application/API expansion, not a new base model.** DeepSeek's dated changelog exposes application capabilities including web search, file input, URL reading, safety, ASR, and TTS, through built-in integrations or standalone APIs.[22]",
+      "source_ids": [
+        22
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": 9,
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "AlphaProof Code is a multi-LLM agentic framework that splits the work of formal verification the way a research team would: human experts work with AI to decide what to prove, and a group of AI agents does it.",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://alignment.openai.com/cot-monitorability-model-lifecycle",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "These are imperfect proxies for monitorability, but together they indicate that models will become harder to monitor through their CoT as we scale toward more intelligent systems.",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://alignment.anthropic.com/2026/homeopathic-learning",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "We demonstrate this effect in small models fine-tuned on datasets we constructed.",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "url": "https://alignment.anthropic.com/2026/worse-together",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "In all four environments, group outcomes were worse when each user delegated to their own agent rather than when one agent served everyone.",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "SGLang-Neuron is an out-of-tree plugin that connects SGLang with AWS Trainium.",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "url": "https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "It maps text (including code), images, video, and audio into a single 768-dimensional vector space, so you can search a mixed collection of products, documents, and media with one text query.",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "So we took two low-latency TPU 8i chips and combined them onto a single package.",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "url": "https://google-deepmind.github.io/code-verification",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "The proofs cover Signal’s post-quantum PQXDH handshake and Triple Ratchet, establishing forward secrecy, authentication, post-compromise security, and handshake secrecy.",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Nov 5 Feature gpt-6-cyber Use GPT-6 Cyber to investigate vulnerabilities",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Start building using the paid tier of the API in Google AI Studio and Android Studio",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Claude Fable and Claude Mythos are the same underlying model.",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "url": "https://blog.google/intl/en-in/products/introducing-gemini-4-hydrogen",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Gemini 4 Hydrogen is priced flat across its entire 1 million-token context window at $1.50 per million input tokens and $7.50 per million output tokens.",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "url": "https://thinkingmachines.ai/news/inkling-2-small",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Nov 12, 2026 update: Inkling 2 Small’s weights are now available for download on HuggingFace",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "url": "https://api-docs.deepseek.com/updates",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Change Log Date: 2026-11-13",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Gemini Robotics 2.5 is rolling out to our robotics partners",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Muse Ember is available today on Muse Code and Meta Model API as muse-ember-1.0",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Everything you need to run and adapt it on your own hardware is released under Apache 2.0, including for commercial use.",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "powered by our new Gemini Decision 1 model (gemini-decision-1)",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+      "title": "",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Parameters 594B total, 17B active",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "url": "https://arxiv.org/abs/2611.12856v1",
+      "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Submission history From: Zheng Jiang [ view email ] [v1] Mon, 9 Nov 2026 18:45:28 UTC (13,751 KB)",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "url": "https://arxiv.org/html/2611.12856v1",
+      "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Each configuration is evaluated once per task, so differences between closely ranked configurations are reported without variance estimates.",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "url": "https://arxiv.org/abs/2611.14246v1",
+      "title": "SinkState: On-the-Fly SVD of Recurrent States for Efficient Hybrid LLM Serving",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Submission history From: Haolin Jiang [ view email ] [v1] Tue, 10 Nov 2026 15:57:35 UTC (1,191 KB)",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "url": "https://arxiv.org/html/2611.14246v1",
+      "title": "SinkState: On-the-Fly SVD of Recurrent States for Efficient Hybrid LLM Serving",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "For some states, the low-rank form does not save memory.",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "url": "https://arxiv.org/abs/2611.13378v1",
+      "title": "Looping Deeper Without Growing the KV Cache: Recurrent Depth for Causal Encoder-Decoders",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Submission history From: Jiaqi Leng [ view email ] [v1] Mon, 9 Nov 2026 23:55:02 UTC (1,334 KB)",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "url": "https://arxiv.org/html/2611.13378v1",
+      "title": "Looping Deeper Without Growing the KV Cache: Recurrent Depth for Causal Encoder-Decoders",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Our serving results measure cost, not quality:",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "url": "https://arxiv.org/abs/2611.14950v1",
+      "title": "Stress-Testing Sandbagging Detection Under Adaptive Attack",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Submission history From: Bhoj Rani Soopal [ view email ] [v1] Wed, 11 Nov 2026 02:56:09 UTC (435 KB)",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "url": "https://arxiv.org/html/2611.14950v1",
+      "title": "Stress-Testing Sandbagging Detection Under Adaptive Attack",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "A detector that catches a fixed attack has not been shown to catch an adaptive one.",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "url": "https://arxiv.org/abs/2611.16502v1",
+      "title": "SignRot: LLM Quantization with Massive Outlier-Aware Sign-Adjusted Rotation",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Submission history From: Jaehun Gim [ view email ] [v1] Thu, 12 Nov 2026 09:05:14 UTC (293 KB)",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "url": "https://arxiv.org/html/2611.16502v1",
+      "title": "SignRot: LLM Quantization with Massive Outlier-Aware Sign-Adjusted Rotation",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Third, SignRot folds only the channel selected during calibration in each layer.",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "url": "https://arxiv.org/abs/2611.17334v1",
+      "title": "Unbundling Multimodal Vision Encoding",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Submission history From: Ellis Brown [ view email ] [v1] Thu, 12 Nov 2026 18:59:54 UTC (1,046 KB)",
+          "added": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "url": "https://arxiv.org/html/2611.17334v1",
+      "title": "Unbundling Multimodal Vision Encoding",
+      "accessed": "2026-11-21",
+      "quotes": [
+        {
+          "text": "Finally, how architecture interacts with interleaved image–text and video data remains open.",
+          "added": "2026-11-21"
+        }
+      ]
+    }
+  ]
+}
