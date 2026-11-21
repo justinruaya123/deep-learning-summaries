@@ -29,10 +29,10 @@ button { cursor: pointer; }
 .topbar nav a { display: inline-flex; min-height: 44px; align-items: center; color: var(--muted); font-size: .81rem; text-decoration: none; }
 .topbar nav a[aria-current], .topbar nav a:hover { color: var(--ink); }
 .topbar nav a[aria-current] { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 12px; }
-.issue-intro { padding: 59px 0 51px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 290px); align-items: end; gap: 50px; }
+.issue-intro { padding: 34px 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 290px); align-items: end; gap: 50px; }
 .eyebrow { margin: 0 0 19px; color: var(--muted); font-size: .66rem; letter-spacing: .13em; font-weight: 600; line-height: 1.6; }
 .status-dot { width: 6px; height: 6px; display: inline-block; margin: 0 9px 1px 0; border-radius: 50%; background: var(--accent); }
-h1 { margin: 0; font-family: var(--serif); font-weight: 400; font-size: clamp(2.7rem, 4.7vw, 4.1rem); line-height: 1.1; letter-spacing: -.045em; text-wrap: balance; }
+h1 { margin: 0; font-family: var(--serif); font-weight: 400; font-size: clamp(2.2rem, 4vw, 3.2rem); line-height: 1.1; letter-spacing: -.045em; text-wrap: balance; overflow-wrap: anywhere; }
 h1 em { color: var(--accent); font-weight: 400; }
 .intro-copy { margin: 24px 0 0; font-size: .91rem; line-height: 1.8; color: var(--muted); }
 .issue-stamp { border-top: 1px solid var(--line); padding: 22px 0 3px; }
@@ -132,15 +132,17 @@ kbd { font-family: var(--sans); font-size: .7rem; padding: 0 6px; border: 1px so
   .topbar { padding: 23px 0 12px; min-height: auto; flex-wrap: wrap; gap: 13px; }
   .topbar nav { width: 100%; gap: 23px; }
   .topbar nav a { font-size: .73rem; }
-  .issue-intro { grid-template-columns: minmax(0, 1fr); padding: 35px 0; gap: 26px; }
-  .issue-intro h1 { font-size: 2.85rem; }
-  .intro-copy { margin-top: 20px; font-size: .83rem; }
+  .issue-intro { grid-template-columns: minmax(0, 1fr); padding: 18px 0; gap: 19px; }
+  .issue-intro .eyebrow { margin-bottom: 12px; }
+  .issue-intro h1 { font-size: 2.4rem; }
+  .intro-copy { margin-top: 14px; font-size: .83rem; }
   .intro-copy br { display: none; }
-  .issue-stamp { display: grid; grid-template-columns: minmax(0, 1fr); padding-top: 20px; }
-  .issue-stamp .eyebrow { margin-bottom: 7px; }
-  .issue-stamp p { margin: 6px 0; }
+  .issue-stamp { display: grid; grid-template-columns: minmax(0, 1fr); padding-top: 15px; }
+  .issue-stamp .eyebrow { display: none; }
+  .issue-stamp p { margin: 3px 0; }
   .read-issue { max-width: 100%; }
-  .feed-heading { align-items: start; flex-direction: column; gap: 18px; }
+  .feed-heading { align-items: start; flex-direction: column; gap: 12px; padding: 18px 0; }
+  .feed-heading h2 { font-size: 1.5rem; }
   .search-wrap { width: 100%; }
   .filter-bar { gap: 7px; }
   .filter { font-size: .72rem; padding: 7px 11px; }
