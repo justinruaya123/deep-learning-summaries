@@ -79,10 +79,10 @@ def load_issues(root: Path) -> list[Issue]:
                 excerpt = plain(lead)
                 if len(excerpt) > 235:
                     excerpt = excerpt[:235].rsplit(' ', 1)[0] + '…'
-                event = re.search(r'November (\d+)', paragraphs[0])
+                event = re.search(r'(January|February|March|April|May|June|July|August|September|October|November|December) (\d{1,2})\b', paragraphs[0])
                 stories.append(Story(title, slugify(title, '-'), *topic, excerpt,
                                      plain(content), tuple(sorted({int(n) for n in re.findall(r'\[(\d+)\]', content)})),
-                                     f'NOV {event[1]}' if event else 'RESEARCH'))
+                                     f'{event[1][:3].upper()} {event[2]}' if event else 'DATE NOT LISTED'))
         if len(stories) != metadata['development_count']:
             raise ValueError(f'Story count mismatch in {path.name}')
         start = date.fromisoformat(metadata['period_start'])

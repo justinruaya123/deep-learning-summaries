@@ -87,6 +87,22 @@ class SiteTests(unittest.TestCase):
         self.assertIn('hardware', article.lower())
         self.assertIn('not an exhaustive', article)
 
+    def test_new_month_uses_its_actual_date_badge(self):
+        with tempfile.TemporaryDirectory(prefix='dl-december-') as directory:
+            root = Path(directory)
+            (root / 'summaries').mkdir()
+            (root / 'sources').mkdir()
+            original = ROOT / 'summaries/2026-11-09_to_2026-11-15.md'
+            (root / 'summaries/2026-12-09_to_2026-12-15.md').write_text(original.read_text().replace('November', 'December'))
+            metadata = json.loads((ROOT / 'sources/2026-11-09_to_2026-11-15.json').read_text())
+            metadata.update(period_start='2026-12-09', period_end='2026-12-15', prepared='2026-12-21')
+            (root / 'sources/2026-12-09_to_2026-12-15.json').write_text(json.dumps(metadata))
+            (root / 'EDITORIAL_POLICY.md').write_bytes((ROOT / 'EDITORIAL_POLICY.md').read_bytes())
+            self.build(root)
+            page = (self.output / 'index.html').read_text()
+            self.assertIn('<span>DEC 9</span>', page)
+            self.assertNotIn('<span>RESEARCH</span>', page)
+
     def test_unknown_source_is_rejected(self):
         self.assertTrue((ROOT / 'build_site.py').exists(), 'Site builder is not implemented')
         with tempfile.TemporaryDirectory(prefix='dl-bad-source-') as directory:
